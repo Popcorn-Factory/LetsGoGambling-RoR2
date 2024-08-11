@@ -6,7 +6,7 @@
 	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Switches\Default Work Unit.wwu" DateLow="1723365472" DateHigh="0"/>
 	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\States\Default Work Unit.wwu" DateLow="1723365472" DateHigh="0"/>
 	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1723365472" DateHigh="0"/>
-	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\SoundBanks\Default Work Unit.wwu" DateLow="1723365472" DateHigh="0"/>
+	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\SoundBanks\Default Work Unit.wwu" DateLow="1723366130" DateHigh="0"/>
 	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Queries\Factory Queries.wwu" DateLow="1646570168" DateHigh="0"/>
 	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Queries\Default Work Unit.wwu" DateLow="1723365472" DateHigh="0"/>
 	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Presets\Factory Spatial Audio.wwu" DateLow="1646570168" DateHigh="0"/>
@@ -14,13 +14,14 @@
 	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Presets\Default Work Unit.wwu" DateLow="1723365472" DateHigh="0"/>
 	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Modulators\Default Work Unit.wwu" DateLow="1723365472" DateHigh="0"/>
 	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Mixing Sessions\Default Work Unit.wwu" DateLow="1723365472" DateHigh="0"/>
-	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1723365472" DateHigh="0"/>
+	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1723366064" DateHigh="0"/>
 	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\lets-go-gambling.wproj" DateLow="1723365472" DateHigh="0"/>
+	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\lets-go-gambling.ethan.wsettings" DateLow="1723370886" DateHigh="0"/>
 	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1723365472" DateHigh="0"/>
 	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1646570182" DateHigh="0"/>
 	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Game Parameters\Factory Motion.wwu" DateLow="1646570184" DateHigh="0"/>
-	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Game Parameters\Default Work Unit.wwu" DateLow="1723365472" DateHigh="0"/>
-	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Events\Default Work Unit.wwu" DateLow="1723365472" DateHigh="0"/>
+	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Game Parameters\Default Work Unit.wwu" DateLow="1723366782" DateHigh="0"/>
+	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Events\Default Work Unit.wwu" DateLow="1723366904" DateHigh="0"/>
 	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Effects\Factory Reflect.wwu" DateLow="1646570182" DateHigh="0"/>
 	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Effects\Factory McDSP Effects.wwu" DateLow="1646570182" DateHigh="0"/>
 	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1646570182" DateHigh="0"/>
@@ -37,10 +38,10 @@
 	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1646570168" DateHigh="0"/>
 	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Conversion Settings\Default Work Unit.wwu" DateLow="1723365472" DateHigh="0"/>
 	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Control Surface Sessions\Default Work Unit.wwu" DateLow="1723365472" DateHigh="0"/>
-	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Audio Devices\Default Work Unit.wwu" DateLow="1723365472" DateHigh="0"/>
-	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Attenuations\Default Work Unit.wwu" DateLow="1723365472" DateHigh="0"/>
+	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Audio Devices\Default Work Unit.wwu" DateLow="1723366064" DateHigh="0"/>
+	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Attenuations\Default Work Unit.wwu" DateLow="1723366636" DateHigh="0"/>
 	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1646570168" DateHigh="0"/>
 	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1646570182" DateHigh="0"/>
-	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1646570184" DateHigh="0"/>
-	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1723365472" DateHigh="0"/>
+	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1723366064" DateHigh="0"/>
+	<ValidationCacheItem File="F:\coding\LetsGoGambling-RoR2\lets-go-gambling\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1723369912" DateHigh="0"/>
 </ValidationCache>
