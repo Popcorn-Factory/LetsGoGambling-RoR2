@@ -1,0 +1,17 @@
+F:\coding\LetsGoGambling-RoR2\letsgogamblingVS\bin\Debug\netstandard2.0\letsgogambling.deps.json
+F:\coding\LetsGoGambling-RoR2\letsgogamblingVS\bin\Debug\netstandard2.0\letsgogambling.dll
+F:\coding\LetsGoGambling-RoR2\letsgogamblingVS\bin\Debug\netstandard2.0\letsgogambling.pdb
+F:\coding\LetsGoGambling-RoR2\letsgogamblingVS\bin\Debug\netstandard2.0\MMHOOK_RoR2.dll
+F:\coding\LetsGoGambling-RoR2\letsgogamblingVS\bin\Debug\netstandard2.0\R2API.Core.dll
+F:\coding\LetsGoGambling-RoR2\letsgogamblingVS\bin\Debug\netstandard2.0\R2API.Networking.dll
+F:\coding\LetsGoGambling-RoR2\letsgogamblingVS\bin\Debug\netstandard2.0\R2API.Sound.dll
+F:\coding\LetsGoGambling-RoR2\letsgogamblingVS\bin\Debug\netstandard2.0\RiskOfOptions.dll
+F:\coding\LetsGoGambling-RoR2\letsgogamblingVS\obj\Debug\netstandard2.0\letsgogambling.csproj.AssemblyReference.cache
+F:\coding\LetsGoGambling-RoR2\letsgogamblingVS\obj\Debug\netstandard2.0\letsgogambling.GeneratedMSBuildEditorConfig.editorconfig
+F:\coding\LetsGoGambling-RoR2\letsgogamblingVS\obj\Debug\netstandard2.0\letsgogambling.AssemblyInfoInputs.cache
+F:\coding\LetsGoGambling-RoR2\letsgogamblingVS\obj\Debug\netstandard2.0\letsgogambling.AssemblyInfo.cs
+F:\coding\LetsGoGambling-RoR2\letsgogamblingVS\obj\Debug\netstandard2.0\letsgogambling.csproj.CoreCompileInputs.cache
+F:\coding\LetsGoGambling-RoR2\letsgogamblingVS\obj\Debug\netstandard2.0\letsgogambling.sourcelink.json
+F:\coding\LetsGoGambling-RoR2\letsgogamblingVS\obj\Debug\netstandard2.0\letsgoga.04F3290C.Up2Date
+F:\coding\LetsGoGambling-RoR2\letsgogamblingVS\obj\Debug\netstandard2.0\letsgogambling.dll
+F:\coding\LetsGoGambling-RoR2\letsgogamblingVS\obj\Debug\netstandard2.0\letsgogambling.pdb

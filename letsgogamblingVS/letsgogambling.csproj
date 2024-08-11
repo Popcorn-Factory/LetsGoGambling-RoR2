@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Configurations>Release;Debug</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="letsgogamblingSoundbank.bnk" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="letsgogamblingSoundbank.bnk" />
+  </ItemGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="BepInEx.Analyzers" Version="1.0.*">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="BepInEx.Core" Version="5.4.19" />
+		<PackageReference Include="RiskOfRain2.GameLibs" Version="1.2.1-r.1" />
+		<PackageReference Include="UnityEngine.Modules" Version="2019.4.26" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <Reference Include="MMHOOK_RoR2">
+	    <HintPath>libs\MMHOOK_RoR2.dll</HintPath>
+	  </Reference>
+	  <Reference Include="R2API.Core">
+	    <HintPath>libs\R2API.Core.dll</HintPath>
+	  </Reference>
+	  <Reference Include="R2API.Networking">
+	    <HintPath>libs\R2API.Networking.dll</HintPath>
+	  </Reference>
+	  <Reference Include="R2API.Sound">
+	    <HintPath>libs\R2API.Sound.dll</HintPath>
+	  </Reference>
+	  <Reference Include="RiskOfOptions">
+	    <HintPath>libs\RiskOfOptions.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+</Project>
