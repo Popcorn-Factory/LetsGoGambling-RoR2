@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>F:\coding\LetsGoGambling-RoR2\lets-go-gambling\</ProjectRoot>
+		<SourceFilesRoot>F:\coding\LetsGoGambling-RoR2\lets-go-gambling\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>F:\coding\LetsGoGambling-RoR2\lets-go-gambling\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>F:\coding\LetsGoGambling-RoR2\lets-go-gambling\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2619545506">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2166035611" Language="SFX" Hash="712876177">
+			<ObjectPath>\SoundBanks\Default Work Unit\letsgogamblingSoundbank</ObjectPath>
+			<ShortName>letsgogamblingSoundbank</ShortName>
+			<Path>letsgogamblingSoundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="51628376" Name="gambling_awdangit" ObjectPath="\Events\Default Work Unit\gambling_awdangit">
+					<IncludedMemoryFiles>
+						<File Id="1049906171" Language="SFX">
+							<ShortName>Aw-Dangit.wav</ShortName>
+							<Path>SFX\Aw-Dangit_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="853644935" Name="gambling_awyeahyeah" ObjectPath="\Events\Default Work Unit\gambling_awyeahyeah">
+					<IncludedMemoryFiles>
+						<File Id="352396795" Language="SFX">
+							<ShortName>Aw Yea, YEA.wav</ShortName>
+							<Path>SFX\Aw Yea, YEA_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="2623082467" Name="Volume_Gambling_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_Gambling_SFX"/>
+				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

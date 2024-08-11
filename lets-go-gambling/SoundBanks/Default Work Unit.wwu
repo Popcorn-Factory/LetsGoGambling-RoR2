@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D1704C5C-E6BB-4E88-86F1-9D7B28F841A0}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{D1704C5C-E6BB-4E88-86F1-9D7B28F841A0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="letsgogamblingSoundbank" ID="{237E8BFB-ABDE-4034-A17C-A64E0AA22EF5}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Default Work Unit" ID="{A5191E4B-79CD-4400-A082-F11811BF92B4}" WorkUnitID="{A5191E4B-79CD-4400-A082-F11811BF92B4}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

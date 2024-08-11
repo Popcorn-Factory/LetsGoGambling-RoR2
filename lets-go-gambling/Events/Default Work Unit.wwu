@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A5191E4B-79CD-4400-A082-F11811BF92B4}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{A5191E4B-79CD-4400-A082-F11811BF92B4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="gambling_awdangit" ID="{2D9A5BD9-4024-4096-AA48-2ABF465E1635}">
+					<ChildrenList>
+						<Action Name="" ID="{12EE5F1B-D2D6-4FC5-A11E-0315EDBC1824}" ShortID="339105684">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Aw-Dangit" ID="{DD7DF8C1-7AF1-4AC6-8683-2CE509FCF3C7}" WorkUnitID="{89BCDC92-C3CE-4F98-ADBF-241538DF8492}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gambling_awyeahyeah" ID="{979B9490-23A3-4287-955A-520A33666E3E}">
+					<ChildrenList>
+						<Action Name="" ID="{A3CCE93C-64DA-45B3-AB6C-C9DAE09D15E0}" ShortID="100552466">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Aw Yea, YEA" ID="{E56097DB-A091-40CE-AD1B-C935744CD89A}" WorkUnitID="{89BCDC92-C3CE-4F98-ADBF-241538DF8492}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
