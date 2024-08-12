@@ -2,6 +2,7 @@
 using RiskOfOptions.Options;
 using RiskOfOptions;
 using RiskOfOptions.OptionConfigs;
+using UnityEngine;
 
 namespace LetsGoGambling.Modules
 {
@@ -21,6 +22,8 @@ namespace LetsGoGambling.Modules
 
         public static void SetupRiskOfOptions()
         {
+            ModSettingsManager.SetModIcon(Modules.Assets.mainAssetBundle.LoadAsset<Sprite>("rooIcon"));
+            ModSettingsManager.SetModDescription("Plays the gamblecore SFX on Shrine of Chance attempts.");
             //Risk of Options intialization
             ModSettingsManager.AddOption(
                 new StepSliderOption(

@@ -10,8 +10,8 @@ If there are any bugs, let me know in the RoR2 modding discord, or directly at `
 ## Credits:
 
 - Assets (Icon, SFX):
-    - raxdflipnote (Go watch his gamblecore here: https://www.youtube.com/watch?v=IPFiKEm-oNI)
+    - raxdflipnote (Go watch his gamblecore video here: https://www.youtube.com/watch?v=IPFiKEm-oNI)
 - Commissioner:
-    - TBD
+    - fransam
 - Programming:
     - ethanol10

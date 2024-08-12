@@ -14,10 +14,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="letsgogamblingassets" />
     <None Remove="letsgogamblingSoundbank.bnk" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="letsgogamblingassets" />
     <EmbeddedResource Include="letsgogamblingSoundbank.bnk" />
   </ItemGroup>
 	

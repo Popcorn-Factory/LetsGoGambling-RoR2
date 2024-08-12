@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{9AC35CBB-F7EC-4C41-A458-59417F576A41}|letsgogambling\\letsgogambling.csproj|f:\\coding\\letsgogambling-ror2\\letsgogambling\\modules\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9AC35CBB-F7EC-4C41-A458-59417F576A41}|letsgogambling\\letsgogambling.csproj|solutionrelative:letsgogambling\\modules\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC35CBB-F7EC-4C41-A458-59417F576A41}|letsgogambling\\letsgogambling.csproj|f:\\coding\\letsgogambling-ror2\\letsgogambling\\modules\\assets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC35CBB-F7EC-4C41-A458-59417F576A41}|letsgogambling\\letsgogambling.csproj|solutionrelative:letsgogambling\\modules\\assets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Assets.cs",
+              "DocumentMoniker": "F:\\coding\\LetsGoGambling-RoR2\\letsgogambling\\Modules\\Assets.cs",
+              "RelativeDocumentMoniker": "letsgogambling\\Modules\\Assets.cs",
+              "ToolTip": "F:\\coding\\LetsGoGambling-RoR2\\letsgogambling\\Modules\\Assets.cs",
+              "RelativeToolTip": "letsgogambling\\Modules\\Assets.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T10:35:36.136Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -32,7 +49,7 @@
               "RelativeDocumentMoniker": "letsgogambling\\Modules\\Config.cs",
               "ToolTip": "F:\\coding\\LetsGoGambling-RoR2\\letsgogambling\\Modules\\Config.cs",
               "RelativeToolTip": "letsgogambling\\Modules\\Config.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T10:20:32.828Z",
               "EditorCaption": ""
@@ -45,7 +62,7 @@
               "RelativeDocumentMoniker": "letsgogambling\\LetsGoGamblingPlugin.cs",
               "ToolTip": "F:\\coding\\LetsGoGambling-RoR2\\letsgogambling\\LetsGoGamblingPlugin.cs",
               "RelativeToolTip": "letsgogambling\\LetsGoGamblingPlugin.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAQwD4AAAAbAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAqwDUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T10:19:52.447Z",
               "EditorCaption": ""
