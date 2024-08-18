@@ -1,0 +1,8 @@
+# Lets Go Gambling! - RoR2 SFX Mod: Changelog
+- v1.1.0:
+    - Added one more sound effect when getting subsequent successes from chance shrines. Resets if failed.
+        - This gets everyone's chance, not just your own.
+- v1.0.1:
+    - Forgot to add the hook to allow volume changes. This has been added now.
+- v1.0.0:
+    - Initial release

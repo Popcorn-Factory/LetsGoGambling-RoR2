@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	51628376	gambling_awdangit			\Default Work Unit\gambling_awdangit	
+	444218535	gambling_cantstopwinning			\Default Work Unit\gambling_cantstopwinning	
 	853644935	gambling_awyeahyeah			\Default Work Unit\gambling_awyeahyeah	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
@@ -9,4 +10,5 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	352396795	Aw Yea, YEA	F:\coding\LetsGoGambling-RoR2\lets-go-gambling\.cache\Windows\SFX\Aw Yea, YEA_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Aw Yea, YEA		428608
 	1049906171	Aw-Dangit	F:\coding\LetsGoGambling-RoR2\lets-go-gambling\.cache\Windows\SFX\Aw-Dangit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Aw-Dangit		294976
+	1058075243	cantstopwinning	F:\coding\LetsGoGambling-RoR2\lets-go-gambling\.cache\Windows\SFX\cantstopwinning_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\cantstopwinning		308480
 

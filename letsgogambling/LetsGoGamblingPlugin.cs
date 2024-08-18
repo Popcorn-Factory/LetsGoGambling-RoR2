@@ -24,17 +24,15 @@ namespace LetsGoGambling
 
     public class LetsGoGamblingPlugin : BaseUnityPlugin
     {
-        // if you don't change these you're giving permission to deprecate the mod-
-        //  please change the names to your own stuff, thanks
-        //   this shouldn't even have to be said
         public const string MODUID = "com.PopcornFactory.LetsGoGambling";
         public const string MODNAME = "LetsGoGambling";
-        public const string MODVERSION = "1.0.0";
+        public const string MODVERSION = "1.1.0";
 
-        // a prefix for name tokens to prevent conflicts- please capitalize all name tokens for convention
         public const string DEVELOPER_PREFIX = "POPCORN";
 
         public static LetsGoGamblingPlugin instance;
+
+        public static bool hasSucceeded = false;
 
         private void Awake()
         {
@@ -46,6 +44,7 @@ namespace LetsGoGambling
             if (Chainloader.PluginInfos.ContainsKey("com.rune580.riskofoptions"))
             {
                 Modules.Config.SetupRiskOfOptions();
+                Modules.Config.OnChangeHooks();
             }
 
             Hook();
@@ -74,14 +73,21 @@ namespace LetsGoGambling
 
             if (NetworkServer.active) 
             {
+                if (hasSucceeded && currentSuccessAmount != afterAmount)
+                {
+                    new EmitSoundAtPoint(444218535, self.gameObject.transform.position).Send(NetworkDestination.Clients);
+                    return;
+                }
+
                 if (currentSuccessAmount != afterAmount)
                 {
+                    hasSucceeded = true;
                     new EmitSoundAtPoint(853644935, self.gameObject.transform.position).Send(NetworkDestination.Clients);
+                    return;
                 }
-                else 
-                {
-                    new EmitSoundAtPoint(51628376, self.gameObject.transform.position).Send(NetworkDestination.Clients);
-                }
+
+                hasSucceeded = false;
+                new EmitSoundAtPoint(51628376, self.gameObject.transform.position).Send(NetworkDestination.Clients);
             }
         }
 

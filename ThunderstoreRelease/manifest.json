@@ -1,8 +1,8 @@
 {
   "name": "Lets_Go_Gambling_SFX_Mod",
-  "version_number": "1.0.0",
+  "version_number": "1.1.0",
   "website_url": "https://github.com/Popcorn-Factory/LetsGoGambling-RoR2",
-  "description": "aw dang it. -> v1.0.0 Initial release.",
+  "description": "aw dang it. -> v1.1.0 Adding more SFX.",
   "dependencies": [
     "bbepis-BepInExPack-5.4.1905",
     "RiskofThunder-R2API_Core-5.1.0",

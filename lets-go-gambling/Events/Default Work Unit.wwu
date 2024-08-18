@@ -25,6 +25,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="gambling_cantstopwinning" ID="{B15B0181-E777-4DD9-9507-2E25A3B12308}">
+					<ChildrenList>
+						<Action Name="" ID="{7745A45D-E4B2-4D43-98B9-710FE49902AB}" ShortID="1018538186">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cantstopwinning" ID="{D082C120-A872-4827-9FEC-DEA036C2D00E}" WorkUnitID="{89BCDC92-C3CE-4F98-ADBF-241538DF8492}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
