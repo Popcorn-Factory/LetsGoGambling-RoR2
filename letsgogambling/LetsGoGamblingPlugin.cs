@@ -26,7 +26,7 @@ namespace LetsGoGambling
     {
         public const string MODUID = "com.PopcornFactory.LetsGoGambling";
         public const string MODNAME = "LetsGoGambling";
-        public const string MODVERSION = "1.1.0";
+        public const string MODVERSION = "1.2.0";
 
         public const string DEVELOPER_PREFIX = "POPCORN";
 
