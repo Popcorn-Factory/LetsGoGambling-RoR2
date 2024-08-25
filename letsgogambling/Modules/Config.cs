@@ -8,6 +8,7 @@ namespace LetsGoGambling.Modules
 {
     public static class Config
     {
+        public static ConfigEntry<bool> playOnPing;
         public static ConfigEntry<float> volumeSlider;
 
         public static void ReadConfig()
@@ -17,6 +18,13 @@ namespace LetsGoGambling.Modules
                 new ConfigDefinition("01 - Volume", "Volume Slider"),
                 50f,
                 new ConfigDescription("Changes the volume on the SFX. In-game Volume SFX affects this too!")
+            );
+
+            playOnPing = LetsGoGamblingPlugin.instance.Config.Bind<bool>
+            (
+                new ConfigDefinition("02 - Misc", "Play on ping"),
+                true,
+                new ConfigDescription("Plays the \"Let's go gambling!\" SFX on ping on a shrine.")
             );
         }
 
@@ -36,6 +44,9 @@ namespace LetsGoGambling.Modules
                     }
                 ));
 
+            ModSettingsManager.AddOption(
+                new CheckBoxOption(playOnPing)
+            );
         }
 
         public static void OnChangeHooks() 

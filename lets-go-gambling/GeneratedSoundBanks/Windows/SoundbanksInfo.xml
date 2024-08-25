@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2166035611" Language="SFX" Hash="840897090">
+		<SoundBank Id="2166035611" Language="SFX" Hash="2454264414">
 			<ObjectPath>\SoundBanks\Default Work Unit\letsgogamblingSoundbank</ObjectPath>
 			<ShortName>letsgogamblingSoundbank</ShortName>
 			<Path>letsgogamblingSoundbank.bnk</Path>
@@ -42,6 +42,14 @@
 						<File Id="1058075243" Language="SFX">
 							<ShortName>cantstopwinning.wav</ShortName>
 							<Path>SFX\cantstopwinning_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1116676446" Name="gambling_letsgogambling" ObjectPath="\Events\Default Work Unit\gambling_letsgogambling">
+					<IncludedMemoryFiles>
+						<File Id="1042195931" Language="SFX">
+							<ShortName>letsgogambling.wav</ShortName>
+							<Path>SFX\letsgogambling_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

@@ -62,7 +62,34 @@ namespace LetsGoGambling
         private void Hook()
         {
             On.RoR2.ShrineChanceBehavior.AddShrineStack += ShrineChanceBehavior_AddShrineStack;
+            On.RoR2.UI.PingIndicator.RebuildPing += PingIndicator_RebuildPing;
         }
+
+        private void PingIndicator_RebuildPing(On.RoR2.UI.PingIndicator.orig_RebuildPing orig, RoR2.UI.PingIndicator self)
+        {
+            orig(self);
+
+            CharacterMaster master = self.pingOwner.GetComponent<CharacterMaster>();
+            if (!master) 
+            {
+                //Chat.AddMessage($"NoBody on {self.pingOwner}");
+
+                //Component[] components = self.pingOwner.GetComponents<Component>();
+                //foreach (Component c in components) 
+                //{
+                //    Chat.AddMessage(c.ToString());
+                //}
+                return;
+            }
+
+            if (master.hasEffectiveAuthority && Modules.Config.playOnPing.Value && self.pingTarget.gameObject.name.Contains("ShrineChance")) 
+            {
+                new PlaySoundNetworkRequest(master.GetBody().netId, "gambling_letsgogambling").Send(NetworkDestination.Clients);
+            }
+
+
+        }
+
 
         private void ShrineChanceBehavior_AddShrineStack(On.RoR2.ShrineChanceBehavior.orig_AddShrineStack orig, RoR2.ShrineChanceBehavior self, RoR2.Interactor activator)
         {
@@ -94,6 +121,7 @@ namespace LetsGoGambling
         private void SetupNetworkMessages() 
         {
             NetworkingAPI.RegisterMessageType<EmitSoundAtPoint>();
+            NetworkingAPI.RegisterMessageType<PlaySoundNetworkRequest>();
         }
     }
 }

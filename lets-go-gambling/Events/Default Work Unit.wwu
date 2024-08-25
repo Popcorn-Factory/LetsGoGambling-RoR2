@@ -36,6 +36,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="gambling_letsgogambling" ID="{55A5B787-DCDE-45A5-84D8-3346B6D0B188}">
+					<ChildrenList>
+						<Action Name="" ID="{CF7A0388-AE0D-4542-B156-790817D6505B}" ShortID="169461618">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="letsgogambling" ID="{F9E25071-8DD1-40C7-AA13-67E0DCF260CB}" WorkUnitID="{89BCDC92-C3CE-4F98-ADBF-241538DF8492}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

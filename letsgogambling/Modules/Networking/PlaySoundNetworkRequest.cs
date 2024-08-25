@@ -8,38 +8,66 @@ using UnityEngine.Networking;
 
 namespace LetsGoGambling.Modules.Networking
 {
-    internal class EmitSoundAtPoint : INetMessage
+    internal class PlaySoundNetworkRequest : INetMessage
     {
         //Network these ones.
+        NetworkInstanceId charnetID;
         uint soundNum;
-        Vector3 position;
+        string soundStr;
 
-        public EmitSoundAtPoint()
+        //Don't network these.
+        GameObject bodyObj;
+
+        public PlaySoundNetworkRequest()
         {
 
         }
 
-        public EmitSoundAtPoint(uint soundNum, Vector3 position)
+        public PlaySoundNetworkRequest(NetworkInstanceId charnetID, uint soundNum)
         {
+            this.charnetID = charnetID;
             this.soundNum = soundNum;
-            this.position = position;
+            this.soundStr = "";
+        }
+
+        public PlaySoundNetworkRequest(NetworkInstanceId charnetID, string soundStr)
+        {
+            this.charnetID = charnetID;
+            this.soundStr = soundStr;
+            this.soundNum = 0;
         }
 
         public void Deserialize(NetworkReader reader)
         {
+            charnetID = reader.ReadNetworkId();
             soundNum = reader.ReadUInt32();
-            position = reader.ReadVector3();
+            soundStr = reader.ReadString();
         }
 
         public void Serialize(NetworkWriter writer)
         {
+            writer.Write(charnetID);
             writer.Write(soundNum);
-            writer.Write(position);
+            writer.Write(soundStr);
         }
 
         public void OnReceived()
         {
-            RoR2.Audio.PointSoundManager.EmitSoundLocal(soundNum, position);
+            GameObject bodyObj = Util.FindNetworkObject(charnetID);
+            if (!bodyObj) 
+            {
+                return;
+            }
+
+            if (soundNum != 0) 
+            {
+                AkSoundEngine.PostEvent(soundNum, bodyObj);
+            }
+
+            if (soundStr != "") 
+            {
+                AkSoundEngine.PostEvent(soundStr, bodyObj);
+            }
         }
     }
 }
