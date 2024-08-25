@@ -1,4 +1,7 @@
 # Lets Go Gambling! - RoR2 SFX Mod: Changelog
+- v1.2.0:
+    - Added one more sound effect when pinging a Shrine of Chance.
+        - If you do not like this sound, you can turn it off in the config or RiskOfOptions
 - v1.1.0:
     - Added one more sound effect when getting subsequent successes from chance shrines. Resets if failed.
         - This gets everyone's chance, not just your own.
