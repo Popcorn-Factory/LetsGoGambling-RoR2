@@ -10,6 +10,7 @@ namespace LetsGoGambling.Modules
     {
         public static ConfigEntry<bool> playOnPing;
         public static ConfigEntry<float> volumeSlider;
+        public static ConfigEntry<bool> playEvenIfExpended;
 
         public static void ReadConfig()
         {
@@ -25,6 +26,13 @@ namespace LetsGoGambling.Modules
                 new ConfigDefinition("02 - Misc", "Play on ping"),
                 true,
                 new ConfigDescription("Plays the \"Let's go gambling!\" SFX on ping on a shrine.")
+            );
+
+            playEvenIfExpended = LetsGoGamblingPlugin.instance.Config.Bind<bool>
+            (
+                new ConfigDefinition("02 - Misc", "Play even if expended"),
+                false,
+                new ConfigDescription("Plays the sound even if the shrine is expended of times it can be used.")
             );
         }
 
@@ -47,6 +55,8 @@ namespace LetsGoGambling.Modules
             ModSettingsManager.AddOption(
                 new CheckBoxOption(playOnPing)
             );
+
+            ModSettingsManager.AddOption(new CheckBoxOption(playEvenIfExpended));
         }
 
         public static void OnChangeHooks() 

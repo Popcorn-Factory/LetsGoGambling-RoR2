@@ -1,4 +1,7 @@
 # Lets Go Gambling! - RoR2 SFX Mod: Changelog
+- v1.2.1:
+    - Added restrictions to when the ping SFX can play. 
+        - Added another option to re-enable this play on ping regardless if the shrine has been expended.
 - v1.2.0:
     - Added one more sound effect when pinging a Shrine of Chance.
         - If you do not like this sound, you can turn it off in the config or RiskOfOptions

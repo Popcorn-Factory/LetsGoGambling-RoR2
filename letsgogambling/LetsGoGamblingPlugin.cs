@@ -26,7 +26,7 @@ namespace LetsGoGambling
     {
         public const string MODUID = "com.PopcornFactory.LetsGoGambling";
         public const string MODNAME = "LetsGoGambling";
-        public const string MODVERSION = "1.2.0";
+        public const string MODVERSION = "1.2.1";
 
         public const string DEVELOPER_PREFIX = "POPCORN";
 
@@ -84,10 +84,19 @@ namespace LetsGoGambling
 
             if (master.hasEffectiveAuthority && Modules.Config.playOnPing.Value && self.pingTarget.gameObject.name.Contains("ShrineChance")) 
             {
-                new PlaySoundNetworkRequest(master.GetBody().netId, "gambling_letsgogambling").Send(NetworkDestination.Clients);
+                ShrineChanceBehavior shrineBehaviour = self.pingTarget.GetComponent<ShrineChanceBehavior>();
+
+                if (Modules.Config.playEvenIfExpended.Value || shrineBehaviour.successfulPurchaseCount < shrineBehaviour.maxPurchaseCount)
+                {
+                    new PlaySoundNetworkRequest(master.GetBody().netId, "gambling_letsgogambling").Send(NetworkDestination.Clients);
+                }
+               
+                //Component[] components = self.pingTarget.GetComponents<Component>();
+                //foreach (Component c in components)
+                //{
+                //    Chat.AddMessage(c.ToString());
+                //}
             }
-
-
         }
 
 

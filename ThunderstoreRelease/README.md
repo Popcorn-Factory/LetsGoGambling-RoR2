@@ -10,9 +10,9 @@ Fully Networked, should play for others when you hit the shrine of chance.
 If there are any bugs, let me know in the RoR2 modding discord, or directly at `ethanol10`.
 
 ## Latest Release:
-- v1.2.0:
-    - Added one more sound effect when pinging a Shrine of Chance.
-        - If you do not like this sound, you can turn it off in the config or RiskOfOptions
+- v1.2.1:
+    - Added restrictions to when the ping SFX can play. 
+        - Added another option to re-enable this play on ping regardless if the shrine has been expended.
 
 ## Credits:
 
