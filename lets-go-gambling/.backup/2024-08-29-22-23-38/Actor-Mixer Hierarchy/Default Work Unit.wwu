@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{89BCDC92-C3CE-4F98-ADBF-241538DF8492}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{89BCDC92-C3CE-4F98-ADBF-241538DF8492}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="SFX" ID="{512F541E-3D30-4F61-AD53-DB7A4BBCF8A6}" ShortID="246039380">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{8A2D644B-2BA8-4957-A05C-4CCC227E168D}" ShortID="1054827196">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Volume_SFX" ID="{3FB2D518-F1A9-4343-BF10-945717AAEF65}" WorkUnitID="{44A70A69-E03E-4AE5-A510-38AB0AE9875B}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{0534F6F9-176F-4DBE-B376-E7028BC088B2}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{134D49A0-B105-42D5-A508-6A50680EF484}" ShortID="414732001">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Volume_Gambling_SFX" ID="{63170BE6-2D26-4E60-B42E-37BFEE07DEBF}" WorkUnitID="{44A70A69-E03E-4AE5-A510-38AB0AE9875B}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{CFCE8C4A-F5E0-4F05-9DCD-7AD85EF2F4A5}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>49.87342</XPos>
+												<YPos>0.05561</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>8.75911</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="SimpleAttenuation" ID="{5D0AC472-3256-49D0-9A67-D5F5004FBD11}" WorkUnitID="{0F3021BB-DCB3-465D-9A63-03E4BF406BCA}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5263712D-FD57-4D7A-9214-ADC4364EBE02}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E5539A2-AADC-4485-B962-B227859513D9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Aw Yea, YEA" ID="{E56097DB-A091-40CE-AD1B-C935744CD89A}" ShortID="861101133">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5263712D-FD57-4D7A-9214-ADC4364EBE02}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E5539A2-AADC-4485-B962-B227859513D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Aw Yea, YEA" ID="{3BE9289D-A39B-4A90-8672-560D94107E7A}">
+									<Language>SFX</Language>
+									<AudioFile>Aw Yea, YEA.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="352396795"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Aw Yea, YEA" ID="{3BE9289D-A39B-4A90-8672-560D94107E7A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Aw-Dangit" ID="{DD7DF8C1-7AF1-4AC6-8683-2CE509FCF3C7}" ShortID="246200309">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5263712D-FD57-4D7A-9214-ADC4364EBE02}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E5539A2-AADC-4485-B962-B227859513D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Aw-Dangit" ID="{5601C190-58D4-4110-B06B-D622AC848375}">
+									<Language>SFX</Language>
+									<AudioFile>Aw-Dangit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1049906171"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Aw-Dangit" ID="{5601C190-58D4-4110-B06B-D622AC848375}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cantstopwinning" ID="{D082C120-A872-4827-9FEC-DEA036C2D00E}" ShortID="639656598">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5263712D-FD57-4D7A-9214-ADC4364EBE02}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E5539A2-AADC-4485-B962-B227859513D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cantstopwinning" ID="{049EB050-19F5-4C90-8472-106697A64298}">
+									<Language>SFX</Language>
+									<AudioFile>cantstopwinning.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1058075243"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="cantstopwinning" ID="{049EB050-19F5-4C90-8472-106697A64298}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="letsgogambling" ID="{F9E25071-8DD1-40C7-AA13-67E0DCF260CB}" ShortID="225818367">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5263712D-FD57-4D7A-9214-ADC4364EBE02}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E5539A2-AADC-4485-B962-B227859513D9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="letsgogambling" ID="{4D813A4D-9FC7-43F2-A47C-816018E81507}">
+									<Language>SFX</Language>
+									<AudioFile>letsgogambling.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1042195931"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="letsgogambling" ID="{4D813A4D-9FC7-43F2-A47C-816018E81507}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

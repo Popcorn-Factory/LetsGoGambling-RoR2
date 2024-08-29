@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="lets-go-gambling" GUID="{F8A26C1D-D3EC-4B4B-A8F9-848DCA4A8782}" Generator="2023.1.4.8496"/>
+	<CacheRoot>../.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{990D5DA8-DEA4-4190-8830-F24999C3DDEB}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{6A4AA0F3-A136-4FA4-B766-725115958D06}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{C1C80C8D-CE41-91E9-A058-711EC6F6EC5A}</FileHash>
+</ProjectInfo>
