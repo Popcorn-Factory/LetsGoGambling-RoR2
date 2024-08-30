@@ -1,7 +1,5 @@
 ﻿using R2API.Networking.Interfaces;
 using RoR2;
-using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 using UnityEngine.Networking;
 

@@ -9,6 +9,8 @@ using UnityEngine.Networking;
 using RoR2;
 using UnityEngine;
 using R2API.Networking.Interfaces;
+using MonoMod.RuntimeDetour;
+using static MonoMod.Cil.RuntimeILReferenceBag.FastDelegateInvokers;
 
 [module: UnverifiableCode]
 [assembly: SecurityPermission(SecurityAction.RequestMinimum, SkipVerification = true)]
@@ -26,20 +28,21 @@ namespace LetsGoGambling
     {
         public const string MODUID = "com.PopcornFactory.LetsGoGambling";
         public const string MODNAME = "LetsGoGambling";
-        public const string MODVERSION = "1.2.1";
+        public const string MODVERSION = "1.2.2";
 
         public const string DEVELOPER_PREFIX = "POPCORN";
-
+        public static PluginInfo PInfo { get; private set; }
         public static LetsGoGamblingPlugin instance;
 
+        private static Hook AddBankAfterAKSoundEngineInit;
         public static bool hasSucceeded = false;
 
         private void Awake()
         {
             instance = this;
-
+            PInfo = Info;
             Log.Init(Logger);
-            Modules.Assets.Initialize(); // load assets and read config
+            Modules.PluginAssets.Initialize(); // load assets and read config
             Modules.Config.ReadConfig();
             if (Chainloader.PluginInfos.ContainsKey("com.rune580.riskofoptions"))
             {
@@ -53,10 +56,21 @@ namespace LetsGoGambling
 
         private void Start() 
         {
+            AddBankAfterAKSoundEngineInit = new Hook(
+                typeof(AkSoundEngineInitialization).GetMethodCached(nameof(AkSoundEngineInitialization.InitializeSoundEngine)),
+                typeof(LetsGoGamblingPlugin).GetMethodCached(nameof(UpdateAfterInit)));
+        }
+
+        private static bool UpdateAfterInit(Func<AkSoundEngineInitialization, bool> orig, AkSoundEngineInitialization self)
+        {
+            var res = orig(self);
+
             if (AkSoundEngine.IsInitialized())
             {
                 AkSoundEngine.SetRTPCValue("Volume_Gambling_SFX", Modules.Config.volumeSlider.Value);
             }
+
+            return res;
         }
 
         private void Hook()
@@ -79,6 +93,11 @@ namespace LetsGoGambling
                 //{
                 //    Chat.AddMessage(c.ToString());
                 //}
+                return;
+            }
+
+            if (!self.pingTarget) 
+            {
                 return;
             }
 

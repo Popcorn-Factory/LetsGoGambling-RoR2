@@ -10,9 +10,8 @@ Fully Networked, should play for others when you hit the shrine of chance.
 If there are any bugs, let me know in the RoR2 modding discord, or directly at `ethanol10`.
 
 ## Latest Release:
-- v1.2.1:
-    - Added restrictions to when the ping SFX can play. 
-        - Added another option to re-enable this play on ping regardless if the shrine has been expended.
+- v1.2.2:
+    - Updated to support SotS
 
 ## Credits:
 

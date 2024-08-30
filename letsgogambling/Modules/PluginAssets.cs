@@ -8,10 +8,19 @@ using System;
 
 namespace LetsGoGambling.Modules
 {
-    internal static class Assets
+    internal static class PluginAssets
     {
         private const string csProjName = "letsgogambling";
+
         internal static AssetBundle mainAssetBundle;
+
+        public static string SoundBankDirectory
+        {
+            get
+            {
+                return System.IO.Path.Combine(System.IO.Path.GetDirectoryName(LetsGoGamblingPlugin.PInfo.Location), "");
+            }
+        }
 
         internal static void Initialize()
         {
@@ -39,7 +48,7 @@ namespace LetsGoGambling.Modules
         }
 
         internal static void LoadSoundbank()
-        {                                                                
+        {
             //soundbank currently broke, but this is how you should load yours
             using (Stream manifestResourceStream2 = Assembly.GetExecutingAssembly().GetManifestResourceStream($"{csProjName}.letsgogamblingSoundbank.bnk"))
             {
@@ -48,6 +57,5 @@ namespace LetsGoGambling.Modules
                 SoundAPI.SoundBanks.Add(array);
             }
         }
-
     }
 }

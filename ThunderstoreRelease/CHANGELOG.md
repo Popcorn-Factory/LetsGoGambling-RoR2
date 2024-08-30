@@ -1,4 +1,6 @@
 # Lets Go Gambling! - RoR2 SFX Mod: Changelog
+- v1.2.2:
+    - Updated to support SotS
 - v1.2.1:
     - Added restrictions to when the ping SFX can play. 
         - Added another option to re-enable this play on ping regardless if the shrine has been expended.
